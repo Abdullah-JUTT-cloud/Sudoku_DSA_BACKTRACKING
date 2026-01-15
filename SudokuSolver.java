@@ -20,7 +20,6 @@ class SudokuSolver {
         }
         return true;
     }
-
     private boolean backtrack(int[][] grid, int row, int col) {
         if (row == SIZE) return true;
         int nextRow = (col == SIZE - 1) ? row + 1 : row;
