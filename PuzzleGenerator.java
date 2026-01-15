@@ -13,7 +13,6 @@ class PuzzleGenerator {
         remove(grid, 40);
         return grid;
     }
-
     private static void fillDiagonal(int[][] grid) {
         for (int i = 0; i < SIZE; i += SUBGRID) fillBox(grid, i, i);
     }
